@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.v-select {
+  padding: 0;
+
+  .vs__dropdown-toggle {
+    border: none;
+  }
+}
